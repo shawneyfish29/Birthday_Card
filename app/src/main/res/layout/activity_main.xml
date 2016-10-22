@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shawn.birthday_card.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/android_birthday2" />
+
+    <TextView
+        android:id="@+id/mainText"
+        android:padding="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:fontFamily="sans-serif-light"
+        android:textStyle="bold"
+        android:textSize="36sp"
+        android:textAlignment="center"
+        android:text="Happy Birthday, Shitty McShit Fag Cunt"
+        />
+
+    <ImageView
+        android:padding="20dp"
+        android:layout_below="@id/mainText"
+        android:layout_centerHorizontal="true"
+        android:layout_width="140sp"
+        android:layout_height="140sp"
+        android:src="@drawable/birdy"
+        android:background="@android:color/background_light" />
+
+    <TextView
+        android:padding="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:fontFamily="sans-serif-light"
+        android:textStyle="bold"
+        android:textSize="36sp"
+        android:textAlignment="center"
+        android:text="From Michael McMick-Mickson"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true" />
+
+
+
+
+
+
+
+
+</RelativeLayout>
